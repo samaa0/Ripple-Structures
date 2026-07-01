@@ -1,0 +1,8 @@
+filterpy
+joblib
+keras
+numpy
+requests
+scikit-learn
+scipy
+vispy

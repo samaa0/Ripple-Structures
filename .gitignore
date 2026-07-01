@@ -1,0 +1,45 @@
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration and secrets
+.env
+*.local.*
+config.h
+
+# Data, checkpoints, and experiment output
+*.csv
+lightning_logs/
+*.ckpt
+runs/
+wandb/
+
+# Unity generated files
+unity/**/Library/
+unity/**/Temp/
+unity/**/Temp 2/
+unity/**/Logs/
+unity/**/Obj/
+unity/**/obj/
+unity/**/Build/
+unity/**/Builds/
+unity/**/UserSettings/
+unity/**/*.sln
+unity/**/*.csproj
+
+# PCB generated/cache files
+History/
+__Previews/
+*.LOG
+
+# OS/editor noise
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,31 @@
+udp:
+  host: "0.0.0.0"
+  port: 20002
+unity:
+  host: "127.0.0.1"
+  port: 5065
+data_collection:
+  host: "127.0.0.1"
+  port: 5005
+filters:
+  window_size: 80
+  second_average: 400
+  std_dev_threshold: 500
+  std_dev_window_size: 1
+  transition_covariance: 100000
+  observation_covariance: 10000
+  low_pass_alpha: 0.03
+ransac:
+  sample_size: 500
+  max_iterations: 500
+visualization:
+  max_points_per_rx: 5
+prediction_handler:
+  host: "0.0.0.0"
+  port: 5005
+  model_dir: "models"
+automation:
+  api_endpoint: ""
+  username: "User1"
+  device_ids: [1, 2, 3]
+  status: "Off"

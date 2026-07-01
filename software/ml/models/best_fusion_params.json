@@ -1,0 +1,1 @@
+{"num_layers": 1, "hidden_size_0": 93, "dropout_rate": 0.4363254367725183, "learning_rate": 0.004680146226562577, "weight_decay": 3.052300460630316e-05, "batch_size": 52, "strategy": "Meta-Learner-NN"}
