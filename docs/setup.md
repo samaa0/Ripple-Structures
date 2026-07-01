@@ -9,7 +9,7 @@ cp firmware/transmitter/config.example.h firmware/transmitter/config.h
 cp firmware/receiver/config.example.h firmware/receiver/config.h
 ```
 
-Set each transmitter to a unique `TX_TO_UPLOAD` ID. In the receiver config, set WiFi credentials, `SERVER_IP`, UDP port, receiver ID, transmitter count, anchor coordinates, and distance offsets.
+Set each DWM3000 transmitter to a unique `TX_TO_UPLOAD` ID. In the receiver config, set WiFi credentials, `SERVER_IP`, UDP port, receiver ID, transmitter count, DWM3000 anchor coordinates, and distance offsets.
 
 ## Positioning Server
 

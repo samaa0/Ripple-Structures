@@ -1,11 +1,11 @@
 # Hardware
 
-The hardware release contains PCB design sources, reference fabrication outputs, and 3D-printable case files.
+The hardware release contains DWM3000-based PCB design sources, reference fabrication outputs, and 3D-printable case files.
 
 ## PCB
 
-- `pcb/altium-final/` contains the final Altium project files.
-- `pcb/eagle-esp32c3-final/` contains the ESP32-C3 Eagle board and schematic.
+- `pcb/altium-final/` contains the final DWM3000 Altium project files.
+- `pcb/eagle-esp32c3-final/` contains the ESP32-C3/DWM3000 Eagle board and schematic.
 - `pcb/gerber-reference/` contains reference Gerber outputs from an earlier exported project.
 
 ## Case

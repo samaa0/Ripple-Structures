@@ -25,6 +25,10 @@ python feature_test.py
 
 Set `RIPPLE_ML_MODEL_DIR` to point at a different model-artifact directory and `RIPPLE_ML_DATA_DIR` to point at local private datasets.
 
+## Data-Dependent Scripts
+
+The delivered ML scripts are the final project code, but training/evaluation scripts that call `pd.read_csv(...)` expect local CSV datasets. Those raw datasets are intentionally not committed for privacy and repository size reasons. Use the schemas in `data/README.md` when recreating those files locally.
+
 ## Published Model Artifacts
 
 - `models/final_raw_data_branch_model.pt`

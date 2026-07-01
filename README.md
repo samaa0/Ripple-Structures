@@ -1,8 +1,8 @@
 # Ripple Structures
 
-**Ultra-Wideband 4D Indoor Positioning, Gesture Recognition, and Unity Visualization**
+**DWM3000 Ultra-Wideband 4D Indoor Positioning, Gesture Recognition, and Unity Visualization**
 
-Ripple Structures is an indoor sensing project built around DW3000 ultra-wideband ranging. It combines Arduino receiver/transmitter firmware, a Python real-time positioning and plotting server, ML gesture-recognition scripts, a Unity visualizer, and custom PCB/case hardware.
+Ripple Structures is an indoor sensing project built around DWM3000 ultra-wideband ranging modules. It combines Arduino receiver/transmitter firmware, a Python real-time positioning and plotting server, ML gesture-recognition scripts, a Unity visualizer, and custom PCB/case hardware.
 
 ![Ripple Structures RX/TX overview](docs/media/simple-rxtx.png)
 
@@ -12,12 +12,12 @@ A public demo video is pending. The available project video was reviewed and int
 
 ## System Overview
 
-- `firmware/transmitter/` sends UWB ranging messages from mobile transmitter nodes.
-- `firmware/receiver/` receives UWB range measurements, applies per-anchor calibration, and forwards measurements over WiFi/UDP.
+- `firmware/transmitter/` sends DWM3000 UWB ranging messages from mobile transmitter nodes.
+- `firmware/receiver/` receives DWM3000 UWB range measurements, applies per-anchor calibration, and forwards measurements over WiFi/UDP.
 - `software/positioning_server/` estimates receiver position, filters samples, plots live data, and forwards coordinates to Unity.
 - `software/ml/` contains the final computing, model training, model testing, fusion, and plotting scripts.
 - `unity/ripple-visualizer/` contains the reusable Unity scripts and project configuration for visualizing tracked users.
-- `hardware/` contains PCB design files, reference Gerbers, and 3D-printable enclosure files.
+- `hardware/` contains DWM3000/ESP32-C3 PCB design files, reference Gerbers, and 3D-printable enclosure files.
 
 ## Architecture
 
@@ -29,8 +29,8 @@ Core diagrams are included in [docs/architecture.md](docs/architecture.md):
 
 ## Quick Start
 
-1. Copy `firmware/transmitter/config.example.h` to `firmware/transmitter/config.h`, set the transmitter ID, and flash `TX.ino`.
-2. Copy `firmware/receiver/config.example.h` to `firmware/receiver/config.h`, set WiFi/network details, anchor coordinates, calibration offsets, and flash `RX.ino`.
+1. Copy `firmware/transmitter/config.example.h` to `firmware/transmitter/config.h`, set the DWM3000 transmitter ID, and flash `TX.ino`.
+2. Copy `firmware/receiver/config.example.h` to `firmware/receiver/config.h`, set WiFi/network details, DWM3000 anchor coordinates, calibration offsets, and flash `RX.ino`.
 3. Install Python dependencies and run the positioning server from `software/positioning_server/`.
 4. Open `unity/ripple-visualizer/` with Unity `2022.3.10f1`, create or import a neutral scene, and attach the included receiver/UDP scripts.
 
@@ -67,10 +67,10 @@ Open `unity/ripple-visualizer/` in Unity `2022.3.10f1`. The public release inclu
 
 ## PCB And Case
 
-Hardware files are under `hardware/`:
+Hardware files for the DWM3000-based positioning nodes are under `hardware/`:
 
 - `hardware/pcb/altium-final/` has the final Altium project, PCB, schematic, BOM document, and structure file.
-- `hardware/pcb/eagle-esp32c3-final/` has the ESP32-C3 Eagle board and schematic.
+- `hardware/pcb/eagle-esp32c3-final/` has the ESP32-C3/DWM3000 Eagle board and schematic.
 - `hardware/pcb/gerber-reference/` has reference Gerber outputs.
 - `hardware/case/` has STL/STP case files.
 

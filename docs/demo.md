@@ -6,7 +6,7 @@ The preferred source video, `Video/Positioning System with init plot.m4v`, was v
 
 A privacy-safe demo should show only:
 
-- the UWB receiver/transmitter hardware,
+- the DWM3000 UWB receiver/transmitter hardware,
 - non-private diagrams or plots,
 - a neutral Unity scene,
 - positioning and gesture-recognition output,

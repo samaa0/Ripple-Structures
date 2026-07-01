@@ -4,7 +4,7 @@ This repository is a curated public release of Ripple Structures.
 
 ## Firmware
 
-The Arduino firmware includes DW3000 support files that retain upstream
+The Arduino firmware targets DWM3000 modules and includes DW3000 support files that retain upstream
 Decawave/Qorvo copyright notices in the source headers. Those files are not
 relicensed by the MIT license for project-authored code. Review those files and
 the relevant DW3000 SDK/module vendor terms before redistribution or commercial
