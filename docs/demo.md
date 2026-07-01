@@ -1,6 +1,6 @@
 # Demo
 
-The public repository includes the approved demo sessions extracted from `Final_presentation.pptx`.
+The public repository includes the approved demo sessions extracted from the final presentation deck.
 
 ## Main Demo
 
