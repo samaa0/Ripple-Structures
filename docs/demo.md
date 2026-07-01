@@ -14,7 +14,6 @@ The public repository includes the approved demo sessions extracted from `Final_
 | --- | --- | --- |
 | PowerPoint Media 1 | Real-time 3D positioning | [media01-real-time-3d-positioning.mp4](media/demos/media01-real-time-3d-positioning.mp4) |
 | PowerPoint Media 2 | Gesture recognition prediction | [media02-gesture-recognition-prediction.mp4](media/demos/media02-gesture-recognition-prediction.mp4) |
-| PowerPoint Media 8 | Boundary setup and logging | [media08-boundary-setup-and-logging.mp4](media/demos/media08-boundary-setup-and-logging.mp4) |
 | PowerPoint Media 10 | Boundary triggering in Unity | [media10-boundary-triggering-in-unity.mp4](media/demos/media10-boundary-triggering-in-unity.mp4) |
 | PowerPoint Media 12 | Two-receiver LED boundary triggering | [media12-two-receiver-led-boundary-triggering.mp4](media/demos/media12-two-receiver-led-boundary-triggering.mp4) |
 

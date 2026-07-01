@@ -16,7 +16,6 @@ Ripple Structures is an indoor sensing project built around DWM3000 ultra-wideba
 | --- | --- |
 | Real-time 3D positioning | [![Real-time 3D positioning](docs/media/demos/media01-real-time-3d-positioning.png)](docs/media/demos/media01-real-time-3d-positioning.mp4) |
 | Gesture recognition prediction | [![Gesture recognition prediction](docs/media/demos/media02-gesture-recognition-prediction.png)](docs/media/demos/media02-gesture-recognition-prediction.mp4) |
-| Boundary setup and logging | [![Boundary setup and logging](docs/media/demos/media08-boundary-setup-and-logging.png)](docs/media/demos/media08-boundary-setup-and-logging.mp4) |
 | Boundary triggering in Unity | [![Boundary triggering in Unity](docs/media/demos/media10-boundary-triggering-in-unity.png)](docs/media/demos/media10-boundary-triggering-in-unity.mp4) |
 | Two-receiver LED boundary triggering | [![Two-receiver LED boundary triggering](docs/media/demos/media12-two-receiver-led-boundary-triggering.png)](docs/media/demos/media12-two-receiver-led-boundary-triggering.mp4) |
 
