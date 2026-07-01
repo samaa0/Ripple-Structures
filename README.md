@@ -8,7 +8,9 @@ Ripple Structures is an indoor sensing project built around DWM3000 ultra-wideba
 
 ## Demo
 
-A public demo video is pending. The available project video was reviewed and intentionally excluded because it showed private room/workspace context. See [docs/demo.md](docs/demo.md).
+[![Ripple Structures public demo overview](docs/media/demo-thumbnail.png)](docs/media/ripple-structures-demo.mp4)
+
+[Watch the privacy-safe demo overview](docs/media/ripple-structures-demo.mp4). The original room/workspace recording was reviewed and intentionally excluded because it showed private context. See [docs/demo.md](docs/demo.md).
 
 ## System Overview
 

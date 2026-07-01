@@ -1,8 +1,12 @@
 # Demo
 
-No public demo video is included in this release yet.
+The public repository includes a privacy-safe overview video:
 
-The preferred source video, `Video/Positioning System with init plot.m4v`, was visually inspected during repository preparation. Its preview showed private room/workspace context, so it was not copied into the public repository.
+```text
+docs/media/ripple-structures-demo.mp4
+```
+
+It is generated from public diagrams and PCB media already included in the repository. The preferred source video, `Video/Positioning System with init plot.m4v`, was visually inspected during repository preparation. Its preview showed private room/workspace context, so it was not copied into the public repository.
 
 A privacy-safe demo should show only:
 
@@ -12,8 +16,4 @@ A privacy-safe demo should show only:
 - positioning and gesture-recognition output,
 - no private room scan, private workspace, faces, personal documents, or local network details.
 
-When a clean recording is available, add it as:
-
-```text
-docs/media/ripple-structures-demo.mp4
-```
+If a future real-world recording is added, it should replace or supplement the overview video only after privacy review.
