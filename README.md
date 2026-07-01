@@ -38,8 +38,8 @@ Core diagrams are included in [docs/architecture.md](docs/architecture.md):
 
 ## Quick Start
 
-1. Copy `firmware/transmitter/config.example.h` to `firmware/transmitter/config.h`, set the DWM3000 transmitter ID, and flash `TX.ino`.
-2. Copy `firmware/receiver/config.example.h` to `firmware/receiver/config.h`, set WiFi/network details, DWM3000 anchor coordinates, calibration offsets, and flash `RX.ino`.
+1. Copy `firmware/transmitter/config.example.h` to `firmware/transmitter/config.h`, set the DWM3000 transmitter ID, and flash `transmitter.ino`.
+2. Copy `firmware/receiver/config.example.h` to `firmware/receiver/config.h`, set WiFi/network details, DWM3000 anchor coordinates, calibration offsets, and flash `receiver.ino`.
 3. Install Python dependencies and run the positioning server from `software/positioning_server/`.
 4. Open `unity/ripple-visualizer/` with Unity `2022.3.10f1`, create or import a neutral scene, and attach the included receiver/UDP scripts.
 
